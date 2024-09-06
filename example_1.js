@@ -1,3 +1,7 @@
+//Imperative Programming
+//create a detailed, explicit step-by-step methodology to cooking the steak
+//control each step of the cooking procedure, including updating variables like internal temperature and cook time/ desiredDoneness
+//focus is on "how", provides a low level view of how each action/ decision should be carried out
 function cookSteak(steakWeight, desiredDoneness) {
     let grillTemperature = 0;
     let steakTemperature = 0;

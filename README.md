@@ -1,6 +1,6 @@
 # [JSL03] Project Submission: Which one is which? Declarative or Imperative?!
 
-Loom Recording Link: [Insert Link]
+Loom Recording Link: [https://www.loom.com/share/eda91ac88e05454696a2eba97a6c2527?sid=55673864-86d3-48d1-8666-6089649ae153]
 
 # Project Overview
 
@@ -86,3 +86,63 @@ Example #: [Insert Example Number]
 # Learning Outcome [1 Minute]
 - Reflect on what you've learned from analyzing these code examples in different paradigms.
 
+presentation notes
+hello and welcome to my presentation on imperative versus
+ declarative programming
+
+we will start by diving straight into example 1 which
+demonstrates an imperative programming approach
+cookSteak function, follows a detailed step-by-step process
+	it first sets the grill temperature
+	then seasons the steak, detailing both sides to be 
+	seasoned
+with then the main body of code being a while loop 
+that continually cooks the steak until it reaches desired
+	Doneness
+
+this is clearly an imperative approach as the code explicitly
+states HOW each task should be completed, by directly
+manipulating each variable such as the steaktemperature 
+and grilltemperature and controls the cooking process through
+loops and conditionals.
+the focus is on the how, detailing every step of the process
+ which is the main characteric of imperative programming
+
+now moving onto example 2 which demonstrates a declerative
+programming approach
+
+in this example the cooksteak function defines a high level
+sequence of events to be performed
+the cooking process is represented as an array of steps, 
+each specifying an action and the related details such as
+temperature/seasoning.
+you then have the for loop executing these based off their
+type
+
+the declarative nature of this code is clear, as instead of 
+focusing on the how it focuses on the what needs to be done
+	preheat the grill
+	season the steak
+	cook til desired doneness
+this approach abstracts away the internal mechanics of how
+ each task is performed and focuses on a series
+of high level steps to complete the cooking process
+
+
+in conclusion, analysing these 2 examples highlights the
+core differences between imperative and declarative 
+programming
+
+with example 1 having detailed step-by-step instructions, 
+focusing on how each step must be completed and controlled
+showcasing the imperative approach
+
+in contrast to that example 2 focuses on declarative
+ programming, where we abstract the process into high-level
+actions focusing on what needs to be achieved rather than the
+detailed exection of each individual task.
+
+So just remember imperative is the how approach and declarative
+is the what approach
+
+I hope this presentation has been informative, Thank you for watching and have a lovely day!
